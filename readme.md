@@ -4,6 +4,13 @@ A plugin for the [prometheus-net](https://github.com/prometheus-net/prometheus-n
 ![](screenshot1.png)
 ![](screenshot2.png)
 
+# Movidesk pack and publish
+```
+https://www.youtube.com/watch?v=xPm9FsptuE8
+nuget pack
+nuget push movidesk-prometheus-net.AspNet.x.x.x.nupkg personal_github_token -Source github
+```
+
 # Installation
 
 Add the package from [nuget](https://www.nuget.org/packages/prometheus-net.AspNet):
